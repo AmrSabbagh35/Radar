@@ -1,4 +1,4 @@
-# Earthquake Alert App
+# Radar
 
 ![Earthquake Alert App](assets/images/logo.png)
 
