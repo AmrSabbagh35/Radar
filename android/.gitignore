@@ -3,7 +3,7 @@ gradle-wrapper.jar
 /captures/
 /gradlew
 /gradlew.bat
-/google-services.json
+/app/google-services.json
 /local.properties
 GeneratedPluginRegistrant.java
 
