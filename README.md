@@ -39,3 +39,29 @@
   </tbody>
 </table>
 
+   <h1>Flutter Setup Guide for Mac and Windows</h1>
+    <h2>Prerequisites</h2>
+    <p>Make sure you have the following prerequisites installed on your machine:</p>
+    <ul>
+        <li><a href="https://flutter.dev/docs/get-started/install">Flutter SDK</a>: Flutter is the UI toolkit for building natively compiled applications.</li>
+        <li><a href="https://dart.dev/get-dart">Dart SDK</a>: Dart is the programming language used for Flutter development.</li>
+        <li><a href="https://git-scm.com/">Git</a>: Git is required for version control and package management in Flutter.</li>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> or any preferred IDE for Flutter development.</li>
+    </ul>
+    <h2>Installation Steps</h2>
+    <h3>1. Clone the Flutter Repository</h3>
+    <p>Open your terminal or command prompt and run the following command to clone the Flutter repository:</p>
+    <pre><code>git clone https://github.com/flutter/flutter.git</code></pre>
+    <h3>2. Add Flutter to System Path</h3>
+    <p>Add the Flutter and Dart binaries to your system path. Update your shell profile configuration file (e.g., <code>~/.bash_profile</code> on macOS, <code>~/.bashrc</code> or <code>~/.zshrc</code> on Linux) with the following lines:</p>
+    <pre><code>export PATH="$PATH:`pwd`/flutter/bin"</code></pre>
+    <h3>3. Install Flutter Dependencies</h3>
+    <p>Run the following command to fetch Flutter dependencies:</p>
+    <pre><code>flutter doctor</code></pre>
+    <p>Follow the instructions provided by <code>flutter doctor</code> to install any missing dependencies.</p>
+    <h3>4. Set Up an IDE</h3>
+    <p>Install the Flutter and Dart plugins for your preferred IDE (e.g., Visual Studio Code). Configure the IDE to use the Flutter SDK.</p>
+    <h3>5. Verify Installation</h3>
+    <p>Run the following command to verify your Flutter installation:</p>
+    <pre><code>flutter --version</code></pre>
+
