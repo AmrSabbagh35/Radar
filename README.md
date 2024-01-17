@@ -38,5 +38,27 @@
     </tr>
   </tbody>
 </table>
+    <h1>Setup Guide</h1>
+    <h2>Prerequisites</h2>
+    <p>If you don't have Flutter SDK installed, please visit the <a href="https://flutter.dev/">official Flutter site</a>.</p>
+    <h2>Installation Steps</h2>
+    <h3>1. Clone the Repository</h3>
+    <p>Run the following command to fetch the latest source code from the master branch:</p>
+    <pre><code>git clone https://github.com/AmrSabbagh35/Radar.git</code></pre>
+    <h3>2. Run the App</h3>
+    <p>Use Android Studio, VS Code, or the command line to run the app:</p>
+    <ul>
+        <li>Option 1: Run with Android Studio or VS Code</li>
+        <li>Option 2: Run with the command line</li>
+    </ul>
+    <h4>Option 1: Run with Android Studio or VS Code</h4>
+    <p>Open the project in your preferred IDE and follow the standard steps for running a Flutter app.</p>
+    <h4>Option 2: Run with the Command Line</h4>
+    <p>Run the following commands in the terminal:</p>
+    <pre><code>flutter pub get</code></pre>
+    <pre><code>flutter run --flavor github</code></pre>
+    <p>Replace <code>--flavor github</code> with the appropriate flavor or configuration if needed.</p>
+    <h3>3. Verify Installation</h3>
+    <p>Ensure that the app is running without errors and can be accessed through the specified flavor or configuration.</p>
 
 
